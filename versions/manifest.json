@@ -2,6 +2,11 @@
   "model": "B-Sense ESP32 + ST7789",
   "updates": [
     {
+      "version": "0.1.4",
+      "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense/b-sense-0.1.4.bin",
+      "notes": "OTA status persistence and debug endpoint"
+    },
+    {
       "version": "0.1.3",
       "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense/b-sense-0.1.3.bin",
       "notes": "OTA debug logging and downgrade support"

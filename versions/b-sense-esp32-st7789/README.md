@@ -1,7 +1,11 @@
 # Firmware binaries
 
-Place firmware files for this model in this folder, for example:
-- b-sense-0.1.2.bin
+This folder contains firmware binaries for the model:
+- B-Sense ESP32 + ST7789
+
+Example files:
+- b-sense-0.2.2.bin
+- b-sense-0.2.3.bin
 
 The OTA manifest lives at:
 - versions/manifest.json

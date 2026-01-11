@@ -2,9 +2,14 @@
   "model": "B-Sense ESP32 + ST7789",
   "updates": [
     {
-      "version": "0.1.2",
+      "version": "0.2.2",
       "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense/b-sense-0.2.2.bin",
-      "notes": "Testing alias to current build 0.2.2"
+      "notes": "Current build"
+    },
+    {
+      "version": "0.2.3",
+      "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense/b-sense-0.2.3.bin",
+      "notes": "Test build"
     }
   ]
 }

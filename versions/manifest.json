@@ -2,6 +2,11 @@
   "model": "B-Sense ESP32 + ST7789",
   "updates": [
     {
+      "version": "0.1.8",
+      "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense/b-sense-0.1.8.bin",
+      "notes": "OTA diagnostics with reset reason and download URL"
+    },
+    {
       "version": "0.1.6",
       "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense/b-sense-0.1.6.bin",
       "notes": "More OTA test diagnostics and WDT-safe download"

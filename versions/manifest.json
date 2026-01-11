@@ -3,9 +3,14 @@
     "B-Sense ESP32 + ST7789": {
       "updates": [
         {
+          "version": "0.01.01",
+          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.01.bin",
+          "notes": "Current build"
+        },
+        {
           "version": "0.2.5",
           "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.2.5.bin",
-          "notes": "Current build"
+          "notes": "Previous build"
         },
         {
           "version": "0.2.4",

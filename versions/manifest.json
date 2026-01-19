@@ -5,7 +5,7 @@
         {
           "version": "0.01.03",
           "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.03.bin",
-          "notes": "Current build"
+          "notes": "Current build (CGM tab label + API address field)"
         },
         {
           "version": "0.01.02",

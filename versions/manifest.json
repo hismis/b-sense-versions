@@ -3,6 +3,11 @@
     "B-Sense ESP32 + ST7789": {
       "updates": [
         {
+          "version": "0.01.05",
+          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.05.bin",
+          "notes": "CGM modes (subscription/license/custom), mini-menu locks in non-subscription"
+        },
+        {
           "version": "0.01.04",
           "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.04.bin",
           "notes": "Current build (CGM tab, API address only)"

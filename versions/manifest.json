@@ -5,7 +5,7 @@
                                                                   {
                                                                       "version":  "0.01.08",
                                                                       "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.08.bin",
-                                                                      "notes":  "Fix B-Sense header glyphs; plan check accepts \u0027annual\u0027 as cloud"
+                                                                      "notes":  "Fix header glyphs; plan check accepts annual as cloud"
                                                                   },
                                                                   {
                                                                       "version":  "0.01.07",

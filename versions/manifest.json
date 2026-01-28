@@ -1,48 +1,53 @@
-{
-  "models": {
-    "B-Sense ESP32 + ST7789": {
-      "updates": [
-        {
-          "version": "0.01.07",
-          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.07.bin",
-          "notes": "Auto-detect plan via B-Sense key; show status; no-restart saves"
-        },
-        {
-          "version": "0.01.06",
-          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.06.bin",
-          "notes": "Adds MAC display & add-to-whitelist button; minor UI tweaks"
-        },
-        {
-          "version": "0.01.05",
-          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.05.bin",
-          "notes": "CGM modes (subscription/license/custom), mini-menu locks in non-subscription"
-        },
-        {
-          "version": "0.01.04",
-          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.04.bin",
-          "notes": "Current build (CGM tab, API address only)"
-        },
-        {
-          "version": "0.01.03",
-          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.03.bin",
-          "notes": "Previous build (CGM tab, API address only)"
-        },
-        {
-          "version": "0.01.01",
-          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.01.bin",
-          "notes": "Previous build"
-        },
-        {
-          "version": "0.2.5",
-          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.2.5.bin",
-          "notes": "Previous build"
-        },
-        {
-          "version": "0.2.4",
-          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.2.4.bin",
-          "notes": "Previous build"
-        }
-      ]
-    }
-  }
+﻿{
+    "models":  {
+                   "B-Sense ESP32 + ST7789":  {
+                                                  "updates":  [
+                                                                  {
+                                                                      "version":  "0.01.08",
+                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.08.bin",
+                                                                      "notes":  "Fix B-Sense header glyphs; plan check accepts \u0027annual\u0027 as cloud"
+                                                                  },
+                                                                  {
+                                                                      "version":  "0.01.07",
+                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.07.bin",
+                                                                      "notes":  "Auto-detect plan via B-Sense key; show status; no-restart saves"
+                                                                  },
+                                                                  {
+                                                                      "version":  "0.01.06",
+                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.06.bin",
+                                                                      "notes":  "Adds MAC display \u0026 add-to-whitelist button; minor UI tweaks"
+                                                                  },
+                                                                  {
+                                                                      "version":  "0.01.05",
+                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.05.bin",
+                                                                      "notes":  "CGM modes (subscription/license/custom), mini-menu locks in non-subscription"
+                                                                  },
+                                                                  {
+                                                                      "version":  "0.01.04",
+                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.04.bin",
+                                                                      "notes":  "Current build (CGM tab, API address only)"
+                                                                  },
+                                                                  {
+                                                                      "version":  "0.01.03",
+                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.03.bin",
+                                                                      "notes":  "Previous build (CGM tab, API address only)"
+                                                                  },
+                                                                  {
+                                                                      "version":  "0.01.01",
+                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.01.bin",
+                                                                      "notes":  "Previous build"
+                                                                  },
+                                                                  {
+                                                                      "version":  "0.2.5",
+                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.2.5.bin",
+                                                                      "notes":  "Previous build"
+                                                                  },
+                                                                  {
+                                                                      "version":  "0.2.4",
+                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.2.4.bin",
+                                                                      "notes":  "Previous build"
+                                                                  }
+                                                              ]
+                                              }
+               }
 }

@@ -1,28 +1,28 @@
-﻿{
-    "models":  {
-                   "B-Sense ESP32 + ST7789":  {
-                                                  "updates":  [
-                                                                  {
-                                                                      "version":  "0.01.09",
-                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.09.bin",
-                                                                      "notes":  "OTA parse: strip BOM/garbage, log manifest head"
-                                                                  },
-                                                                  {
-                                                                      "version":  "0.01.08",
-                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.08.bin",
-                                                                      "notes":  "Fix header glyphs; plan check accepts annual as cloud"
-                                                                  },
-                                                                  {
-                                                                      "version":  "0.01.07",
-                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.07.bin",
-                                                                      "notes":  "Auto-detect plan via B-Sense key; show status; no-restart saves"
-                                                                  },
-                                                                  {
-                                                                      "version":  "0.01.06",
-                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.06.bin",
-                                                                      "notes":  "Adds MAC display \u0026 add-to-whitelist button; minor UI tweaks"
-                                                                  }
-                                                              ]
-                                              }
-               }
+{
+    "models": {
+        "B-Sense ESP32 + ST7789": {
+            "updates": [
+                {
+                    "version": "0.01.10",
+                    "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.10.bin",
+                    "notes": "UI refresh (tabs/labels), friendlier messages, release debug toggle"
+                },
+                {
+                    "version": "0.01.09",
+                    "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.09.bin",
+                    "notes": "OTA parse: strip BOM/garbage, log manifest head"
+                },
+                {
+                    "version": "0.01.08",
+                    "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.08.bin",
+                    "notes": "Fix header glyphs; plan check accepts annual as cloud"
+                },
+                {
+                    "version": "0.01.07",
+                    "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.07.bin",
+                    "notes": "Auto-detect plan via B-Sense key; show status; no-restart saves"
+                }
+            ]
+        }
+    }
 }

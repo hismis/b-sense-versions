@@ -4,6 +4,24 @@
       "partition_scheme": "min_spiffs",
       "updates": [
         {
+          "version": "0.01.25",
+          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.25.bin",
+          "sha256": "2AA7BF7068F1DCB027CC0718503B33668D36FE49F8B3E2B2B26783818F47695D",
+          "bootloader": {
+            "sha256": "C0A7E1949E61DA9202EAF095487F2392CD6FAAFFC9B3D62C091C9D7EA2DC399F",
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/bootloader.bin"
+          },
+          "partitions": {
+            "sha256": "0A8B5720E7B77FF11F1462458C3A509DEE79224E5279898F26D6A2E3AE0517B7",
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/partitions.bin"
+          },
+          "boot_app0": {
+            "sha256": "F94C5D786A7A8FAB06AC5D10E33BF37711A6697636DC037559EA19CC410A17F0",
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/boot_app0.bin"
+          },
+          "notes": "Hide manifest_ok banner; tech box toggle; build via script"
+        },
+        {
           "version": "0.01.24",
           "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.24.bin",
           "sha256": "77ED94B2D8A747629831AFFAAFFC4DD285C240D76525B8C7DB982E084DAD0920",
@@ -38,42 +56,6 @@
             "sha256": "F94C5D786A7A8FAB06AC5D10E33BF37711A6697636DC037559EA19CC410A17F0"
           },
           "notes": "Mini menu timezone list expanded; unknown TZ no longer resets to UTC; APP_VERSION 0.01.23."
-        },
-        {
-          "version": "0.01.22",
-          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.22.bin",
-          "sha256": "4363C4F3F3A0ABBB4E5028165CE27AA8D259558DB4231EF1BFA30C2DE2DA6262",
-          "bootloader": {
-            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/bootloader.bin",
-            "sha256": "C0A7E1949E61DA9202EAF095487F2392CD6FAAFFC9B3D62C091C9D7EA2DC399F"
-          },
-          "partitions": {
-            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/partitions.bin",
-            "sha256": "0A8B5720E7B77FF11F1462458C3A509DEE79224E5279898F26D6A2E3AE0517B7"
-          },
-          "boot_app0": {
-            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/boot_app0.bin",
-            "sha256": "F94C5D786A7A8FAB06AC5D10E33BF37711A6697636DC037559EA19CC410A17F0"
-          },
-          "notes": "Improv Wi-Fi onboarding for web flasher; mini OTA retries Wi-Fi connect; OTA timestamp fallback fixed."
-        },
-        {
-          "version": "0.01.21",
-          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.21.bin",
-          "sha256": "0119585F30F920B71E547F6513D7B6410F4FC0A7690B0E2C13D2B68DB3C957DC",
-          "bootloader": {
-            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/bootloader.bin",
-            "sha256": "C0A7E1949E61DA9202EAF095487F2392CD6FAAFFC9B3D62C091C9D7EA2DC399F"
-          },
-          "partitions": {
-            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/partitions.bin",
-            "sha256": "0A8B5720E7B77FF11F1462458C3A509DEE79224E5279898F26D6A2E3AE0517B7"
-          },
-          "boot_app0": {
-            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/boot_app0.bin",
-            "sha256": "F94C5D786A7A8FAB06AC5D10E33BF37711A6697636DC037559EA19CC410A17F0"
-          },
-          "notes": "Mini OTA retries WiFi connect; Status shows last OTA with correct timestamp fallback."
         }
       ]
     }

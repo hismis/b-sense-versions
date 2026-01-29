@@ -4,6 +4,24 @@
       "partition_scheme": "min_spiffs",
       "updates": [
         {
+          "version": "0.01.21",
+          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.21.bin",
+          "sha256": "0119585F30F920B71E547F6513D7B6410F4FC0A7690B0E2C13D2B68DB3C957DC",
+          "bootloader": {
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/bootloader.bin",
+            "sha256": "C0A7E1949E61DA9202EAF095487F2392CD6FAAFFC9B3D62C091C9D7EA2DC399F"
+          },
+          "partitions": {
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/partitions.bin",
+            "sha256": "0A8B5720E7B77FF11F1462458C3A509DEE79224E5279898F26D6A2E3AE0517B7"
+          },
+          "boot_app0": {
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/boot_app0.bin",
+            "sha256": "F94C5D786A7A8FAB06AC5D10E33BF37711A6697636DC037559EA19CC410A17F0"
+          },
+          "notes": "Mini OTA retries WiFi connect; Status shows last OTA with correct timestamp fallback."
+        },
+        {
           "version": "0.01.20",
           "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.20.bin",
           "sha256": "B25873C1215CA5C7703CDDD4DCA5A9A615025F63466BBBBDBA26A027D35CAB03",

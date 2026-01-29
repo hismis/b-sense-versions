@@ -1,28 +1,81 @@
 {
-    "models":  {
-                   "B-Sense ESP32 + ST7789":  {
-                                                  "updates":  [
-                                                                  {
-                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.18.bin",
-                                                                      "version":  "0.01.18",
-                                                                      "notes":  "Mini menu now unlocked for license plans (only Free is locked); MAC registration remains manual-only; plan checked_at stored in seconds; quiet OTA list auto-opens when update exists."
-                                                                  },
-                                                                  {
-                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.17.bin",
-                                                                      "version":  "0.01.17",
-                                                                      "notes":  "MAC registration now manual-only (no auto POST); plan checked_at stores seconds for correct date; quiet OTA list auto-opens when update exists."
-                                                                  },
-                                                                  {
-                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.16.bin",
-                                                                      "version":  "0.01.16",
-                                                                      "notes":  "Quiet OTA check auto-opens version list + install when update exists; background plan/licence watchdog unchanged."
-                                                                  },
-                                                                  {
-                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.15.bin",
-                                                                      "version":  "0.01.15",
-                                                                      "notes":  "Background plan/license check every 60s (test), auto-registers license MAC, legacy plan_type=annual handled, manifest kept to 4 entries."
-                                                                  }
-                                                              ]
-                                              }
-               }
+  "models": {
+    "B-Sense ESP32 + ST7789": {
+      "partition_scheme": "min_spiffs",
+      "updates": [
+        {
+          "version": "0.01.19",
+          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.19.bin",
+          "sha256": "21C8A506541BBF8F0B8DD0EA1AA2CC4600B5C80CC25EAE9549462B883B4AA7DC",
+          "bootloader": {
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/bootloader.bin",
+            "sha256": "C0A7E1949E61DA9202EAF095487F2392CD6FAAFFC9B3D62C091C9D7EA2DC399F"
+          },
+          "partitions": {
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/partitions.bin",
+            "sha256": "0A8B5720E7B77FF11F1462458C3A509DEE79224E5279898F26D6A2E3AE0517B7"
+          },
+          "boot_app0": {
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/boot_app0.bin",
+            "sha256": "F94C5D786A7A8FAB06AC5D10E33BF37711A6697636DC037559EA19CC410A17F0"
+          },
+          "notes": "Phase 1 OTA hardening: manifest hashes + partition guardrail; retry/backoff; timestamped OTA status. No UI changes yet."
+        },
+        {
+          "version": "0.01.18",
+          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.18.bin",
+          "sha256": "C6E81CF3E6B11E68F431370D5ED4B53274481778230C249F445D03F9257DA271",
+          "bootloader": {
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/bootloader.bin",
+            "sha256": "C0A7E1949E61DA9202EAF095487F2392CD6FAAFFC9B3D62C091C9D7EA2DC399F"
+          },
+          "partitions": {
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/partitions.bin",
+            "sha256": "0A8B5720E7B77FF11F1462458C3A509DEE79224E5279898F26D6A2E3AE0517B7"
+          },
+          "boot_app0": {
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/boot_app0.bin",
+            "sha256": "F94C5D786A7A8FAB06AC5D10E33BF37711A6697636DC037559EA19CC410A17F0"
+          },
+          "notes": "Mini menu now unlocked for license plans (only Free is locked); MAC registration remains manual-only; plan checked_at stored in seconds; quiet OTA list auto-opens when update exists."
+        },
+        {
+          "version": "0.01.17",
+          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.17.bin",
+          "sha256": "8A78B3F88699902092246A8B0F4B4CFB739F2C45FC6E2B10A8BDE24B8459EF5F",
+          "bootloader": {
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/bootloader.bin",
+            "sha256": "C0A7E1949E61DA9202EAF095487F2392CD6FAAFFC9B3D62C091C9D7EA2DC399F"
+          },
+          "partitions": {
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/partitions.bin",
+            "sha256": "0A8B5720E7B77FF11F1462458C3A509DEE79224E5279898F26D6A2E3AE0517B7"
+          },
+          "boot_app0": {
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/boot_app0.bin",
+            "sha256": "F94C5D786A7A8FAB06AC5D10E33BF37711A6697636DC037559EA19CC410A17F0"
+          },
+          "notes": "MAC registration now manual-only (no auto POST); plan checked_at stores seconds for correct date; quiet OTA list auto-opens when update exists."
+        },
+        {
+          "version": "0.01.16",
+          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.16.bin",
+          "sha256": "779F8CA4D55E6BA37D9FF3251D75E6EAF17F79755CFBC2367E43182DC6FA436B",
+          "bootloader": {
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/bootloader.bin",
+            "sha256": "C0A7E1949E61DA9202EAF095487F2392CD6FAAFFC9B3D62C091C9D7EA2DC399F"
+          },
+          "partitions": {
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/partitions.bin",
+            "sha256": "0A8B5720E7B77FF11F1462458C3A509DEE79224E5279898F26D6A2E3AE0517B7"
+          },
+          "boot_app0": {
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/boot_app0.bin",
+            "sha256": "F94C5D786A7A8FAB06AC5D10E33BF37711A6697636DC037559EA19CC410A17F0"
+          },
+          "notes": "Quiet OTA check auto-opens version list + install when update exists; background plan/licence watchdog unchanged."
+        }
+      ]
+    }
+  }
 }

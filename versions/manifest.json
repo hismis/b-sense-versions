@@ -3,6 +3,11 @@
                    "B-Sense ESP32 + ST7789":  {
                                                   "updates":  [
                                                                   {
+                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.16.bin",
+                                                                      "version":  "0.01.16",
+                                                                      "notes":  "OTA quiet check now auto-opens version list + install when an update exists; background plan/licence watchdog unchanged."
+                                                                  },
+                                                                  {
                                                                       "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.15.bin",
                                                                       "version":  "0.01.15",
                                                                       "notes":  "Background plan/license check every 60s (test), auto-registers license MAC, legacy plan_type=annual handled, manifest kept to 4 entries."
@@ -16,11 +21,6 @@
                                                                       "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.13.bin",
                                                                       "version":  "0.01.13",
                                                                       "notes":  "Free mode resets pro settings; mobile tab wrap; TZ list expanded; time readout center"
-                                                                  },
-                                                                  {
-                                                                      "url":  "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.12.bin",
-                                                                      "version":  "0.01.12",
-                                                                      "notes":  "UI polish: lighter cards, pro badge, full date/time, sticky OTA status"
                                                                   }
                                                               ]
                                               }

@@ -4,6 +4,24 @@
       "partition_scheme": "min_spiffs",
       "updates": [
         {
+          "version": "0.01.26",
+          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.26.bin",
+          "sha256": "5B7CD2525C1B878736C2042261E5ECB2B49FC2D6D5D5C843366D13EAAFF789BD",
+          "bootloader": {
+            "sha256": "C0A7E1949E61DA9202EAF095487F2392CD6FAAFFC9B3D62C091C9D7EA2DC399F",
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/bootloader.bin"
+          },
+          "partitions": {
+            "sha256": "0A8B5720E7B77FF11F1462458C3A509DEE79224E5279898F26D6A2E3AE0517B7",
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/partitions.bin"
+          },
+          "boot_app0": {
+            "sha256": "F94C5D786A7A8FAB06AC5D10E33BF37711A6697636DC037559EA19CC410A17F0",
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/boot_app0.bin"
+          },
+          "notes": "Default layout header reflow: compact Wi-Fi badge, centered glucose value, date/time no overlap; APP_VERSION 0.01.26."
+        },
+        {
           "version": "0.01.25",
           "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.25.bin",
           "sha256": "1DE462C41C085D9F6A17C998E65A6951EFAAF1EC7A0F35F8A334DDD8B88A8FE3",

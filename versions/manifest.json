@@ -6,7 +6,7 @@
         {
           "version": "0.01.25",
           "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.25.bin",
-          "sha256": "2AA7BF7068F1DCB027CC0718503B33668D36FE49F8B3E2B2B26783818F47695D",
+          "sha256": "1DE462C41C085D9F6A17C998E65A6951EFAAF1EC7A0F35F8A334DDD8B88A8FE3",
           "bootloader": {
             "sha256": "C0A7E1949E61DA9202EAF095487F2392CD6FAAFFC9B3D62C091C9D7EA2DC399F",
             "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/bootloader.bin"
@@ -19,7 +19,7 @@
             "sha256": "F94C5D786A7A8FAB06AC5D10E33BF37711A6697636DC037559EA19CC410A17F0",
             "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/boot_app0.bin"
           },
-          "notes": "Hide manifest_ok banner; tech box toggle; build via script"
+          "notes": "New Default layout (less technical); Wi-Fi icon color; header date; last update age warning; subscription display; APP_VERSION 0.01.25"
         },
         {
           "version": "0.01.24",

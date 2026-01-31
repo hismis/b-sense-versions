@@ -4,6 +4,24 @@
       "partition_scheme": "min_spiffs",
       "updates": [
         {
+          "version": "0.01.34",
+          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.34.bin",
+          "sha256": "CD3D07BB276DBF7ABAB93B4C7926AD349108301C5E8F1B7015E4C7C3B753625A",
+          "bootloader": {
+            "sha256": "C0A7E1949E61DA9202EAF095487F2392CD6FAAFFC9B3D62C091C9D7EA2DC399F",
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/bootloader.bin"
+          },
+          "partitions": {
+            "sha256": "0A8B5720E7B77FF11F1462458C3A509DEE79224E5279898F26D6A2E3AE0517B7",
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/partitions.bin"
+          },
+          "boot_app0": {
+            "sha256": "F94C5D786A7A8FAB06AC5D10E33BF37711A6697636DC037559EA19CC410A17F0",
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/boot_app0.bin"
+          },
+          "notes": "Simple layout: pixel arrows refined (thicker 45°, double arrows side-by-side); APP_VERSION 0.01.34."
+        },
+        {
           "version": "0.01.32",
           "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.32.bin",
           "sha256": "0DEB868A1A7698951B2E777FD7A07A221052343DE34C0FB695ABFEF000712B69",

@@ -1,4 +1,4 @@
-﻿{
+{
   "models": {
     "B-Sense ESP32 + ST7789": {
       "partition_scheme": "min_spiffs",
@@ -6,7 +6,7 @@
         {
           "version": "0.01.36",
           "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.36.bin",
-          "sha256": "77CF053E4BC963DB76FD4DB913DB0E40A958DF5B724DDC3014747E173573DFD6",
+          "sha256": "6D74CB4DA44636D3AE21108D67CDE6FCE61A106A824294F432E1C55B598B7E93",
           "bootloader": {
             "sha256": "C0A7E1949E61DA9202EAF095487F2392CD6FAAFFC9B3D62C091C9D7EA2DC399F",
             "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/bootloader.bin"

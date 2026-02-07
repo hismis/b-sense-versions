@@ -6,7 +6,7 @@
         {
           "version": "0.01.39",
           "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.39.bin",
-          "sha256": "18579DF6CCD0ADB48FD4B50B3FB9485D84FFB91DF3D9A023E776621D5F97D43D",
+          "sha256": "67A9A75172F8DA2B5989FC010D23876B09E62D2955F6A349A408562B18AA7BFF",
           "bootloader": {
             "sha256": "C0A7E1949E61DA9202EAF095487F2392CD6FAAFFC9B3D62C091C9D7EA2DC399F",
             "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/bootloader.bin"

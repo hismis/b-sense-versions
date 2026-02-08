@@ -4,6 +4,24 @@
       "partition_scheme": "min_spiffs",
       "updates": [
         {
+          "version": "0.01.41",
+          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.41.bin",
+          "sha256": "8C3ADEA14F8D6071AFFCD778AD7EC6A92522CAED4167A30ADA56B0A517F2E8DD",
+          "bootloader": {
+            "sha256": "C0A7E1949E61DA9202EAF095487F2392CD6FAAFFC9B3D62C091C9D7EA2DC399F",
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/bootloader.bin"
+          },
+          "partitions": {
+            "sha256": "0A8B5720E7B77FF11F1462458C3A509DEE79224E5279898F26D6A2E3AE0517B7",
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/partitions.bin"
+          },
+          "boot_app0": {
+            "sha256": "F94C5D786A7A8FAB06AC5D10E33BF37711A6697636DC037559EA19CC410A17F0",
+            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/boot_app0.bin"
+          },
+          "notes": "Auto-added 0.01.41"
+        },
+        {
           "version": "0.01.40",
           "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.40.bin",
           "sha256": "24D10E2E0571CFF18458A4F669324EDFDC1C68E03821D10F79D3AD8E29A01DC5",
@@ -56,24 +74,6 @@
             "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/boot_app0.bin"
           },
           "notes": "Auto-added 0.01.38"
-        },
-        {
-          "version": "0.01.37",
-          "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/b-sense-0.01.37.bin",
-          "sha256": "7ECC6591E6F5D65578D4272E05BCB6C3DD71B43CB0DEFE87B4E071DF36099FBA",
-          "bootloader": {
-            "sha256": "C0A7E1949E61DA9202EAF095487F2392CD6FAAFFC9B3D62C091C9D7EA2DC399F",
-            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/bootloader.bin"
-          },
-          "partitions": {
-            "sha256": "0A8B5720E7B77FF11F1462458C3A509DEE79224E5279898F26D6A2E3AE0517B7",
-            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/partitions.bin"
-          },
-          "boot_app0": {
-            "sha256": "F94C5D786A7A8FAB06AC5D10E33BF37711A6697636DC037559EA19CC410A17F0",
-            "url": "https://raw.githubusercontent.com/hismis/b-sense-versions/main/versions/b-sense-esp32-st7789/boot_app0.bin"
-          },
-          "notes": "Auto-added 0.01.37"
         }
       ]
     }
